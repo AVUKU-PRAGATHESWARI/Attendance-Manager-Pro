@@ -12,6 +12,7 @@
 }
 
 .classes {
+    text-align: center;
     font-size: 1.2rem;
     color: white;
 }
@@ -20,6 +21,7 @@
     color: whitesmoke;
     text-transform: capitalize;
 }
+
 :is(.p, .a) {
     border: none;
     width: 90px;
@@ -27,16 +29,19 @@
     height: 25px;
     text-transform: uppercase;
 }
+
 .home-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
+
 .buttons {
     display: flex;
     gap: 20px;
 }
+
 .attendance-percentage-value {
     color: whitesmoke;
 }
@@ -80,6 +85,7 @@
     height: 100%;
     width: 30px;
 }
+
 :is(.delete, .undo) {
     border-radius: 60%;
     display: flex;
@@ -100,6 +106,7 @@
     justify-content: center;
     
 }
+
 @media (max-width:539px){
     .disp {
         display: flex;
