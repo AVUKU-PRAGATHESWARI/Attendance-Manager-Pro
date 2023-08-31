@@ -46,7 +46,7 @@ const Pop = () => {
                 <form className="atf" onSubmit={(e) => e.preventDefault()}>
                     {" "}
                     <div className="Add-Subject">
-                        <p className="present-details">Subject Name :</p>
+                        <label className="present-details">Subject Name :</label>
                         <input
                             ref={subject}
                             id="inputA"
@@ -57,7 +57,7 @@ const Pop = () => {
                         />
                     </div>
                     <div className="Add-Subject">
-                        <p className="present-details">Attended Classes</p>
+                        <label className="present-details">Attended Classes :</label>
 
                         <input
                             ref={totalClasses}
@@ -69,7 +69,7 @@ const Pop = () => {
                         />
                     </div>
                     <div className="Add-Subject">
-                        <p className="present-details">Initial Total Classes</p>
+                        <label className="present-details">Initial Total Classes :</label>
                         <input
                             ref={attendedClasses}
                             id="inputA"

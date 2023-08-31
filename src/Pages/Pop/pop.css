@@ -9,17 +9,17 @@
     height: 400px;
     align-items: center;
     display: flex;
-    gap: 20px;
-    border-radius: 10px;
-
+    gap: 40px;
     flex-direction: column;
-    margin-top: 150px;
     justify-content: center;
-    background-color: rgb(103, 96, 96);
+    border-radius: 10px;
+    color: white;
 }
 .present-details {
-    color: white;
-    background-color: rgb(103, 96, 96);
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .home-main {
@@ -30,16 +30,17 @@
     justify-content: center;
 }
 .enter-A {
-    border-radius: 30px;
-    border: none;
-
+    border-radius: 10px;
+    border: 1px dashed #5C8374;
+    background-color: aliceblue;
+    margin-left: 5px;
     width: 200px;
-    padding-left: 10px;
+    padding-left: 20px;
     height: 40px;
 }
 
 .sub-submit {
-    background: blueviolet;
+    background: var(--button);
     width: 200px;
     border-radius: 10px;
     height: 40px;
