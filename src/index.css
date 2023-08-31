@@ -5,7 +5,6 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: #183D3D;
-
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -17,7 +16,7 @@ code {
 :root {
     --orange: #93B1A6;
     --button: #93B1A6;
-    --blue: #e0b013;
+    --blue: #93B1A6;
 }
 
 @media (max-width : 300px)  {
