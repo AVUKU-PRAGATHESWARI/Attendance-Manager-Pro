@@ -67,6 +67,9 @@ const Home = () => {
 
     return (
         <>
+            <div className="for-header">
+                <h1 className="for-heading">Attendance Manager</h1>
+            </div>
             <div className="home-main">
                 <div className="subject-display">
                     {subjects.map((value, index) => (
