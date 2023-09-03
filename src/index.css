@@ -18,10 +18,3 @@ code {
     --button: #93B1A6;
     --blue: #93B1A6;
 }
-
-@media (max-width : 300px)  {
-    body{
-        background-color: red;
-    }
-    
-}
