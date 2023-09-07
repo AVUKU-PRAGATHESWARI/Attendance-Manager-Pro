@@ -117,12 +117,6 @@
     
 }
 
-.newsub{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 @media (max-width:539px){
     .disp {
         display: flex;
